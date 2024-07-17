@@ -1,0 +1,49 @@
+.about-us {
+  background-color: #fcfaef;
+
+  &__photo {
+    height: 200px;
+    background-image: url(../images/turntable.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 48px;
+
+    @include onTablet {
+      height: 400px;
+      margin-bottom: 120px;
+    }
+
+    @include onDesktop {
+      height: 460px;
+    }
+  }
+
+  &__content {
+    @include pageGrid;
+  }
+
+  &__title {
+    grid-column: 1 / -1;
+
+    @include onTablet {
+      grid-column: span 3;
+    }
+
+    @include onDesktop {
+      grid-column: span 6;
+    }
+  }
+
+  &__description {
+    grid-column: 1 / -1;
+    margin: 0 0 48px;
+
+    @include onTablet {
+      grid-column: span 3;
+    }
+
+    @include onDesktop {
+      grid-column: 8 / -1;
+    }
+  }
+}

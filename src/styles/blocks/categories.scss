@@ -1,0 +1,16 @@
+.categories {
+  &__wrapper {
+    display: grid;
+    row-gap: 40px;
+
+    &--button-width {
+      @include onDesktop {
+        width: 33.33%;
+      }
+    }
+
+    @include onTablet {
+      row-gap: 56px;
+    }
+  }
+}
