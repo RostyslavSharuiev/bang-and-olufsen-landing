@@ -4,12 +4,12 @@
   font-size: 32px;
   line-height: 100%;
 
-  @include onTablet {
+  @include on-tablet {
     margin: 0 0 56px;
     font-size: 40px;
   }
 
-  @include onDesktop {
+  @include on-desktop {
     font-size: 48px;
   }
 

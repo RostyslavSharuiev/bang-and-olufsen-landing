@@ -1,5 +1,5 @@
 .page {
-  font-family: 'Manrope', sans-serif;
+  font-family: Manrope, sans-serif;
   font-size: 16px;
   line-height: 140%;
   color: $main-text-color;
@@ -16,7 +16,7 @@
     left: 0;
     right: 0;
 
-    transition: all $effectDuration;
+    transition: all $effect-duration;
     opacity: 0;
     transform: translateX(-100%);
     pointer-events: none;
