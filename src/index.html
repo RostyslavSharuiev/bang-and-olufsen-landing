@@ -17,7 +17,7 @@
     <link
       rel="icon"
       type="image/x-icon"
-      href="images/favicon.ico"
+      href="images/logo.svg"
     />
     <link
       rel="preconnect"
@@ -26,7 +26,6 @@
     <link
       rel="preconnect"
       href="https://fonts.gstatic.com"
-      crossorigin="anonymous"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
@@ -189,7 +188,7 @@
               <article class="product recommended__product">
                 <img
                   src="images/products/beoplay-hx.png"
-                  alt="beoplay"
+                  alt="beoplay-hx"
                   class="product__photo"
                 />
 
@@ -365,6 +364,7 @@
                 <form
                   class="contact-us__form"
                   method="GET"
+                  onsubmit="this.reset(); return false"
                 >
                   <input
                     type="text"
